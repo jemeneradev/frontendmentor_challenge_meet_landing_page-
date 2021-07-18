@@ -45,21 +45,21 @@
   align-items: flex-end;
   justify-content: center;
   position: relative;
-  top: -1px;
+  top: -15px;
   left: -11px;
 }
 
 .LeftHeroPic {
   position: relative;
   top: 25px;
-  right: 10px;
+  right: 20px;
   width: 12.4em;
 }
 
 .RightHeroPic {
   position: relative;
   top: 25px;
-  right: 13px;
+  right: 3px;
   width: 12.4em;
 }
 
@@ -109,7 +109,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  position:relative;
+  position: relative;
   left: -11px;
 }
 
@@ -124,17 +124,18 @@
 @media (min-width:768px) {
   .Logo {
     left: -14px;
+    top: -15px;
   }
 
   .LeftHeroPic {
     top: 35px;
-    right: 6px;
+    right: 26px;
     width: 24.8em;
   }
 
   .RightHeroPic {
     top: 35px;
-    right: 16px;
+    right: -3px;
     width: 24.8em;
   }
 
@@ -159,13 +160,61 @@
     margin-top: 6px;
     width: 22em;
   }
-  
+
   .CallToAction .ButtonLinks li {
     margin-top: 0px;
   }
-  
+
   .CallToAction .ButtonLinks li:last-child {
     margin-top: 0px;
     margin-left: 17px;
+  }
+}
+
+@media (min-width:1440px) {
+  .Intro_Container {
+    grid-template-columns: 1fr 640px 1fr;
+    grid-template-rows: 105px 460px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "LogoSection LogoSection LogoSection"
+      "LeftHero CallToAction RightHero"
+  }
+
+  .Logo {
+    left: 1px;
+    top: 17px;
+  }
+
+  .LeftHeroPic {
+    right: 35px;
+    top: 64.1px;
+  }
+
+  .RightHeroPic {
+    top: 119px;
+    left: 38px;
+  }
+
+  .CallToAction h1 {
+    width: 7em;
+    font-size: 3.98em;
+    margin-top: 121px;
+    letter-spacing: 0em;
+    right: 0px;
+    line-height: 64px;
+    top: -0.15em;
+  }
+
+  .CallToAction p {
+    width: 30em;
+    top: -19px;
+    font-size: 18px;
+    left: 0px;
+  }
+
+  .CallToAction .ButtonLinks {
+    margin-top: -0.3em;
+    left: 0.1em;
   }
 }
