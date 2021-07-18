@@ -3,9 +3,6 @@
   
     width: 12em;
     height: 3.63em;
-  
-    position: relative;
-    left: -11px; 
     border-radius: 28px;
   
     display: flex;
@@ -18,14 +15,18 @@
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
-    position: relative;
-    top: 0.03em;
-    left: 0.01em;
     word-spacing: 0.11em;
-  
+    margin: 0;
+    padding: 0;
     color: #FAFAFA;
+    text-align: center;
+    width: 100%;
   }
   
   .Button p span{
     color: #8FE3F9
+  }
+
+  @media (min-width:768px) {
+      
   }

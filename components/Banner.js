@@ -11,12 +11,12 @@ export default function Home() {
                 </div>
                 <div className={styles.LeftHero}>
                     <div className={styles.LeftHeroPic}>
-                        <Image src="/images/image-hero-left.png" width="394 " height="303"/>
+                        <Image src="/images/image-hero-left.svg" width="394 " height="303"/>
                     </div>
                 </div>
                 <div className={styles.RightHero}>
                     <div className={styles.RightHeroPic}>
-                        <Image src="/images/image-hero-right.png" width="394 " height="303"/>
+                        <Image src="/images/image-hero-right.svg" width="394 " height="303"/>
                     </div>
                 </div>
                 <div className={styles.CallToAction}>
