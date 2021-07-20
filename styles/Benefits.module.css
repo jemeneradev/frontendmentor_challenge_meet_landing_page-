@@ -76,8 +76,42 @@
 }
 
 @media screen and (min-width:768px) {
+    .Benefits_Container {
+        top: 185px;
+        left: -13px;
+    }
+
+    .Benefits_Container h2 {
+        margin-top: 56px;
+    }
+
+    .Benefits_Container h3 {
+        font-size: 40.2px;
+        line-height: 43px;
+        width: 11.4em;
+        margin-top: 3px;
+    }
+
+    .Benefits_Container p {
+        width: 571px;
+        margin-top: 7px;
+    }
+
     .Users {
-        display: flex;
+        grid-auto-rows: 1fr;
+        grid-template-rows: 143px;
+        grid-template-columns: none;
+        gap: 0 8px;
+        grid-template-areas: " one two three four"
+            /* display: flex;
         flex-direction: row;
+        width: 785px;
+        height: 157px; */
+    }
+
+    .Users li {
+        width: 167px;
+        height: 156px;
+        flex-shrink: 0;
     }
 }
