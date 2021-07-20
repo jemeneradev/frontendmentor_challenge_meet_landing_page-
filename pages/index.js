@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Banner from '../components/Banner.js'
+import Benefits from '../components/Benefits.js'
 import Design from '../components/Design.js'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
+      <Benefits />
       <Design/>
     </div>
   )
