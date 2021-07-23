@@ -115,3 +115,27 @@
         flex-shrink: 0;
     }
 }
+
+@media screen and (min-width:1440px) {
+    .Benefits_Container {
+        top: 20.35em;
+        left: 0px;
+    }
+    .Users {
+        gap: 0 29.5px;
+    }
+    .Users li {
+        width: 256px;
+        height: 242px;
+    }
+
+    .Benefits_Container h2 {
+        margin-top: 130px;
+    }
+    .Benefits_Container p {
+        width: 515px;
+        font-size: 1.07em;
+        left: -0.3em;
+        top: -0.79em;
+    }
+}
