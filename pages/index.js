@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Banner from '../components/Banner.js'
 import Benefits from '../components/Benefits.js'
 import Design from '../components/Design.js'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       </Head>
       <Banner />
       <Benefits />
-      <Design/>
+      <Footer />
+      <Design />
     </div>
   )
 }
