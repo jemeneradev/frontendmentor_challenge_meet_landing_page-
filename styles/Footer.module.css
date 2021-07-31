@@ -80,7 +80,7 @@
     }
 
     .Footer_Container::before {
-        background-image: url("/images/image-footer-tablet.jpg"); 
+        background-image: url("/images/image-footer-tablet.jpg");
     }
 
     .Footer_Button {
@@ -91,12 +91,12 @@
 @media screen and (min-width:1440px) {
 
     .Footer_Container::before {
-        background-image: url("/images/image-footer-desktop.jpg"); 
+        background-image: url("/images/image-footer-desktop.jpg");
     }
 
     .Footer_Container {
         flex-direction: row;
-        height: 40.1vh;
+        height: 33.1vh;
         top: 111.6px;
     }
 
@@ -105,7 +105,7 @@
         margin-top: 45px;
         left: -100px;
         text-align: left;
-        top:0;
+        top: 0;
     }
 
     .Footer_Container>p {
