@@ -1,11 +1,38 @@
 
+import React from 'react'
 import styles from '../styles/Button.module.css'
-export default function Button(props) {
-    let btnstyle = {width:props.bwidth,backgroundColor:props.defaultStateColor}
-    let content = props['span'] === undefined ? <p> {props.message}</p> : <p> {props.message} <span>{props.span}</span></p> 
-    return (
-        <div className={styles.Button} style={btnstyle}>
-            {content}
-        </div>
-    )
+
+class Button extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { hovered : false};
+        this.changeToMainColor = this.changeToMainColor.bind(this);
+        this.changeToHoverColor = this.changeToHoverColor.bind(this);
+    }
+
+    changeToMainColor() {
+        this.setState({
+            hovered: false
+        });      
+        console.log("main color")
+    }
+
+    changeToHoverColor() {
+        this.setState({
+            hovered: true
+        });
+        console.log("hover color")     
+    }
+
+    render() {
+        let btnstyle = {width:this.props.bwidth}
+        btnstyle["backgroundColor"] = this.state.hovered===true ? this.props.hoverColor : this.props.bgColor
+        let content = this.props['span'] === undefined ? <p> {this.props.message}</p> : <p> {this.props.message} <span style={{color:this.props.spanColor}}>{this.props.span}</span></p> 
+        return (
+            <div onMouseEnter={this.changeToHoverColor} onMouseLeave={this.changeToMainColor} className={styles.Button} style={btnstyle}>
+                {content}
+            </div>
+        )
+    }
 }
+export default Button; 

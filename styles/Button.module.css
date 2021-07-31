@@ -1,32 +1,35 @@
 .Button {
-    background-color: #4D96A9;
-  
-    width: 12em;
-    height: 3.63em;
-    border-radius: 28px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .Button p {
-    font-family: 'Red Hat Display', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    word-spacing: 0.11em;
-    margin: 0;
-    padding: 0;
-    color: #FAFAFA;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .Button p span{
-    color: #8FE3F9
-  }
+  background-color: #4D96A9;
 
-  @media (min-width:768px) {
-      
-  }
+  width: 12em;
+  height: 3.63em;
+  border-radius: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button p {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #FAFAFA;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 0.2px;
+  word-spacing: 0.1px;
+  left: -0.4px;
+}
+
+.Button p span {
+  color: #8FE3F9;
+  position: relative;
+  left: 1.2px;
+}
+
+@media (min-width:768px) {}

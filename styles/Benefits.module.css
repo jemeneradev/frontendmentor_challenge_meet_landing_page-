@@ -5,8 +5,7 @@
     justify-content: center;
 
     position: relative;
-    top: 248px;
-    left: -11px;
+    top: 64.5px;
 }
 
 .Benefits_Container h2 {
@@ -20,7 +19,10 @@
     text-transform: uppercase;
     color: #4D96A9;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 64px;
+    position: relative;
+    left: -0.3px;
+    top: 0.1px;
 }
 
 .Benefits_Container h3 {
@@ -32,24 +34,24 @@
     text-align: center;
     color: #28283D;
     width: 10em;
-    margin-top: 10px;
+    margin-top: 10.1px;
 }
 
 .Benefits_Container p {
     font-family: 'Red Hat Display';
     font-style: normal;
-    font-weight: 400;
-    font-size: .97em;
+    font-weight: 500;
+    font-size: .98em;
     line-height: 26px;
     text-align: center;
     color: #87879D;
-    width: 323px;
-    top: -.89em;
+    width: 327px;
     position: relative;
-    left: -0.1em;
-    letter-spacing: 0.2px;
-    word-spacing: 0.1em;
-    margin-top: 13px;
+    left: 0.01em;
+    letter-spacing: 0.15px;
+    word-spacing: -0.01em;
+    margin-top: 0.06em;
+    top: 0.5px;
 }
 
 .Users {
@@ -61,7 +63,7 @@
     grid-auto-rows: 1fr 1fr;
     grid-template-columns: 151px 151px;
     grid-template-rows: 143px 143px;
-    gap: 1.48em 1.55em;
+    gap: 1.5em 1.56em;
     grid-template-areas:
         "one two"
         "three four";
@@ -121,9 +123,11 @@
         top: 20.35em;
         left: 0px;
     }
+
     .Users {
         gap: 0 29.5px;
     }
+
     .Users li {
         width: 256px;
         height: 242px;
@@ -132,6 +136,7 @@
     .Benefits_Container h2 {
         margin-top: 130px;
     }
+
     .Benefits_Container p {
         width: 515px;
         font-size: 1.07em;

@@ -23,9 +23,9 @@ export default function Home() {
                     <h1>Group Chat for Everyone</h1>
                     <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
                     <ul className={styles.ButtonLinks}>
-                    <li><Button message="Download" span="v1.3" bwidth="12em" defaultStateColor="#4D96A9"/></li>
+                    <li><Button message="Download" span="v1.3" bwidth="12em" bgColor="#4D96A9" hoverColor="#71C0D4" spanColor="#8FE3F9"/></li>
                     <li>
-                    <Button message="What is it?" bwidth="8.7em" defaultStateColor="#855FB1"/>
+                    <Button message="What is it?" bwidth="8.7em" bgColor="#855FB1" hoverColor="#D9B8FF"/>
                     </li>
                     </ul>
                 </div>
