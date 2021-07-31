@@ -137,7 +137,7 @@
     width: 24.8em;
   }
 
-  .CallToAction> h1 {
+  .CallToAction>h1 {
     width: 6.5em;
     font-size: 2.97em;
     line-height: 48px;
@@ -148,7 +148,7 @@
     margin-top: 5.1px;
   }
 
-  .CallToAction> p {
+  .CallToAction>p {
     width: 26em;
     top: -8.7px;
     left: -0.7px;
@@ -182,8 +182,8 @@
   }
 
   .Logo {
-    left: 1px;
-    top: 17px;
+    left: 0.3px;
+    top: 18px;
   }
 
   .LeftHeroPic {
@@ -196,17 +196,19 @@
     left: 38px;
   }
 
-  .CallToAction h1 {
+  .CallToAction>h1 {
     width: 7em;
     font-size: 3.98em;
     margin-top: 121px;
-    letter-spacing: 0em;
+    letter-spacing: 0.0em;
     right: 0px;
     line-height: 64px;
     top: -0.15em;
+    word-spacing: 0.3px;
+    left: 0.4px;
   }
 
-  .CallToAction p {
+  .CallToAction> p {
     width: 30em;
     top: -19px;
     font-size: 18px;
@@ -215,6 +217,6 @@
 
   .CallToAction .ButtonLinks {
     margin-top: -0.3em;
-    left: 0.1em;
+    left: 0em;
   }
 }
