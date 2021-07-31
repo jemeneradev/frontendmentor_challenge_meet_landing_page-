@@ -57,8 +57,7 @@
 
 @media screen and (min-width:768px) {
     .Footer_Container {
-        top: 347px;
-        background-image: url("/images/image-footer-tablet.jpg");
+        top: -45px;
     }
 
     .Footer_Container>h2 {
@@ -67,21 +66,25 @@
         width: 345px;
         margin-top: 19.4px;
         left: -0.3px;
-        top: 0.1px;
+        top: 2px;
     }
 
     .Footer_Container>p {
         width: 564px;
-        top: -18.5px;
+        top: -17.5px;
         font-size: 1.14em;
-        left: -0.3px;
+        left: -0.1px;
         letter-spacing: -0.002em;
         word-spacing: -0.02em;
         line-height: 1.4em;
     }
 
+    .Footer_Container::before {
+        background-image: url("/images/image-footer-tablet.jpg"); 
+    }
+
     .Footer_Button {
-        top: 4.6px;
+        top: 4.7px;
     }
 }
 
@@ -90,7 +93,6 @@
         flex-direction: row;
         height: 40.1vh;
         top: 478.5px;
-        background-image: url("/images/image-footer-desktop.jpg");
     }
 
     .Footer_Container>h2 {

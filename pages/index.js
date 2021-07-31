@@ -18,7 +18,7 @@ export default function Home() {
       <Banner />
       <Separator num="01"/>
       <Benefits />
-      <Separator top="68px" num="02"/>
+      <Separator num="02"/>
       <Footer />
       {<Design />}
     </div>

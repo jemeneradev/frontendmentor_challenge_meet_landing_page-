@@ -79,44 +79,51 @@
 
 @media screen and (min-width:768px) {
     .Benefits_Container {
-        top: 185px;
-        left: -13px;
+        top: -23px;
     }
 
-    .Benefits_Container h2 {
+    .Benefits_Container>h2 {
         margin-top: 56px;
+        top: -0.8px;
+        left: -0.6px;
     }
 
-    .Benefits_Container h3 {
+    .Benefits_Container>h3 {
         font-size: 40.2px;
-        line-height: 43px;
+        line-height: 43.3px;
         width: 11.4em;
         margin-top: 3px;
+        position: relative;
+        top: -0.9px;
+        left: 1px;
     }
 
-    .Benefits_Container p {
+    .Benefits_Container>p {
         width: 571px;
         margin-top: 7px;
+        top: -15px;
+        left: -0.4px;
     }
+}
 
-    .Users {
-        grid-auto-rows: 1fr;
-        grid-template-rows: 143px;
-        grid-template-columns: none;
-        gap: 0 8px;
-        grid-template-areas: " one two three four"
-            /* display: flex;
+.Users {
+    grid-auto-rows: 1fr;
+    grid-template-rows: 143px;
+    grid-template-columns: none;
+    gap: 0 8px;
+    grid-template-areas: " one two three four"
+        /* display: flex;
         flex-direction: row;
         width: 785px;
         height: 157px; */
-    }
-
-    .Users li {
-        width: 167px;
-        height: 156px;
-        flex-shrink: 0;
-    }
 }
+
+.Users li {
+    width: 167px;
+    height: 156px;
+    flex-shrink: 0;
+}
+
 
 @media screen and (min-width:1440px) {
     .Benefits_Container {
