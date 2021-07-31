@@ -76,6 +76,9 @@
     width: 151px;
     height: 143px;
 }
+.UserPhoto div{
+    border-radius: 8px;
+}
 
 @media screen and (min-width:768px) {
     .Benefits_Container {

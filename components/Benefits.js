@@ -4,17 +4,17 @@ export default function Home() {
     return (
         <div className={styles.Benefits_Container}>
             <ul className={styles.Users}>
-                <li style={{gridArea:"one"}}>
-                    <Image src="/images/user_1.svg" layout="fill"/>
+                <li style={{gridArea:"one"}} className={styles.UserPhoto}>
+                    <Image src="/images/image-woman-in-videocall.jpg" layout="fill"/>
                 </li>
-                <li style={{gridArea:"two"}}>
-                    <Image src="/images/user_2.svg" layout="fill"/>
+                <li style={{gridArea:"two"}} className={styles.UserPhoto}>
+                    <Image src="/images/image-women-videochatting.jpg" layout="fill"/>
                 </li>
-                <li style={{gridArea:"three"}}>
-                    <Image src="/images/user_3.svg" layout="fill"/>
+                <li style={{gridArea:"three"}} className={styles.UserPhoto}>
+                    <Image src="/images/image-men-in-meeting.jpg" layout="fill"/>
                 </li>
-                <li style={{gridArea:"four"}}>
-                    <Image src="/images/user_4.svg" layout="fill"/>
+                <li style={{gridArea:"four"}} className={styles.UserPhoto}>
+                    <Image src="/images/image-man-texting.jpg" layout="fill"/>
                 </li>
             </ul>
             <h2>Built for Modern Use</h2>
